@@ -22,7 +22,7 @@ public class Cheers {
                 if ("AEFHILMNORSX".indexOf(cCurrChar) == -1) {
                         cArticle = "a";
                 }
-                System.out.println("Give me " + cArticle + ":" + sUpperCasedWord.charAt(i));
+                System.out.println("Give me " + cArticle + " "+ cCurrChar + ": " + cCurrChar+ "!");
         }
 
         System.out.println("What does that spell?");
@@ -30,7 +30,7 @@ public class Cheers {
         int nNumOfTimes = Integer.parseInt(args[1]);
 
         for (int j = 0; j<nNumOfTimes; ++j) {
-                System.out.println(sUpperCasedWord + " !!!");
+                System.out.println(sUpperCasedWord + "!!!");
         }
 }
 }
