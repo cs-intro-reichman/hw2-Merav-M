@@ -20,7 +20,7 @@ public class Cheers {
                 String cArticle = "an";
                 char cCurrChar = sUpperCasedWord.charAt(i);
                 if ("AEFHILMNORSX".indexOf(cCurrChar) == -1) {
-                        cArticle = "a";
+                        cArticle = "a ";
                 }
                 System.out.println("Give me " + cArticle + " "+ cCurrChar + ": " + cCurrChar+ "!");
         }
